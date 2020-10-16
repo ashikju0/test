@@ -1,0 +1,96 @@
+<html>
+<head>
+<title> portfolio</title>
+ <link rel="icon" href="images/icon.ico" type="image/gif" sizes="16x16"> 
+<link rel="stylesheet" href="style.css" type="text/css">
+<link rel="stylesheet" href="progresscircle.css" type="text/css">
+</head>
+<body>
+<div class="header">
+<div class="top-area">
+<div class="logo-area">
+<img src="images/4fb633a21b89a.png">
+</div>
+<div class="header-menu">
+<ul>
+<li> <a href="index.html"> HOME</a></li>
+<li> <a href="about.html"> ABOUT ME</a></li>
+<li> <a href="service.html">SERVICES</a></li>
+<li> <a href="skill.html">SKILLS</a></li>
+<li> <a href="#"> PROJECT</a></li>
+<li> <a href="#">PLAN</a></li>
+<li> <a href="contact.html">CONTACT</a></li>
+</ul>
+</div>
+</div>
+<div class="header-content">
+<h2>Hello,</br>My Name Is</h2>
+<p>MD ASHIKUR RAHMAN</p>
+<a href="#">HIRE ME</a>
+<p id="t"> I am a web designer,web developer, wordpress developer </p>
+
+</div>
+</div>
+
+<div class="main-content">
+
+
+
+<div class="contact clear">
+<h1>GET IN TOUCH</h1>
+<p>Feel Free To Contact Me Anytimes</p>
+<div class="message-box clear">
+<h1> Drop a Message</h1>
+<p> Let's Explain What's Your Demand</p>
+<input type="text" placeholder="Your name"></input>
+<input type="text" placeholder="Your Email"></input></br>
+<input type="text" placeholder="Your Phone"></input>
+<input type="text" placeholder="Your Subject"></input>
+</br>
+<input type="text" placeholder="Your message" class="message">
+</input>
+
+</br>
+<button>SEND</button>
+</div>
+
+
+</div>
+</div>
+</div>
+
+
+</div>
+<div class="footer clear">
+<ul>
+<li> <a href="facebook.com/asikkhan.hb">FACEBOOK</a></li>
+<li> <a href="twitter.com/ashikju"> TWITTER</a></li>
+<li> <a href="#">LINKDIN</a></li>
+<li> <a href="contact.html">EMAIL</a></li>
+<li> <a href="#">YOUTUBE</a></li>
+<li> <a href="#">BLOG</a></li>
+<li> <a href="contact.html">CONTACT</a></li>
+</ul>
+</br>
+<p>&copy copyright 2020- <i>Ashikur Rahman</i> All rights reserved</p>
+</div>
+<button onclick="myFunction()" id="theme">change mood</button>
+<script src="jq/jquery-3.5.1.js"></script>
+<script src="jq/t.min.js"></script>
+<script src="jq/progresscircle.js"></script>
+<script>
+	$('#t').t(
+	
+	)
+	$(function(){
+
+  $('.circlechart').circlechart();
+
+});
+function myFunction() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+}
+	</script>
+</body>
+</html>
